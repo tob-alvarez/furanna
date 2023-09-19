@@ -54,13 +54,13 @@ function App() {
           Tantas cosas por decirte y tan pocas que salen de mi boca. Deberías
           aprender a leer mis ojos cuando te miro.
         </h2>
-        <img src="/public/nav-arrow-down.svg" className="arrowDown" />
+        <img src="/src/assets/nav-arrow-down.svg" className="arrowDown" />
         <div className="contenedorFlores">
-          <img src="/public/flowers-yellow.svg" className="flores" />
-          <img src="/public/flowers-yellow.svg" className="flores" />
-          <img src="/public/flowers-yellow.svg" className="flores" />
-          <img src="/public/flowers-yellow.svg" className="flores" />
-          <img src="/public/flowers-yellow.svg" className="flores" />
+          <img src="/src/assets/flowers-yellow.svg" className="flores" />
+          <img src="/src/assets/flowers-yellow.svg" className="flores" />
+          <img src="/src/assets/flowers-yellow.svg" className="flores" />
+          <img src="/src/assets/flowers-yellow.svg" className="flores" />
+          <img src="/src/assets/flowers-yellow.svg" className="flores" />
         </div>
       </section>
       <section className="laPregunta">
@@ -69,7 +69,7 @@ function App() {
           Hace mucho queria preguntarte una cosita...
         </h2>
         <img src="https://i.imgur.com/Nt7I7oP.png" className="patrick" />
-        <img src="/public/nav-arrow-down.svg" className="arrowDown" />
+        <img src="/src/assets/nav-arrow-down.svg" className="arrowDown" />
       </section>
       <section className="laPregunta">
         <h2 className="poesiaText2 text-center px-3">Querés ser mi novia?</h2>
