@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import { flores } from "../src/assets/flowers-yellow.svg";
+import florcitas from "../src/assets/flowers-yellow.svg";
 
 function App() {
   const [modalShow, setModalShow] = useState(false);
@@ -59,11 +59,11 @@ function App() {
         </h2>
         <FontAwesomeIcon icon={faChevronDown} className="arrowDown" />
         <div className="contenedorFlores">
-          <img src={flores} className="flores" />
-          <img src={flores} className="flores" />
-          <img src={flores} className="flores" />
-          <img src={flores} className="flores" />
-          <img src={flores} className="flores" />
+          <img src={florcitas} className="flores" />
+          <img src={florcitas} className="flores" />
+          <img src={florcitas} className="flores" />
+          <img src={florcitas} className="flores" />
+          <img src={florcitas} className="flores" />
         </div>
       </section>
       <section className="laPregunta">
