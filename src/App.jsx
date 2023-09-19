@@ -2,6 +2,9 @@ import { useState } from "react";
 import "./App.css";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { flores } from "../src/assets/flowers-yellow.svg";
 
 function App() {
   const [modalShow, setModalShow] = useState(false);
@@ -54,13 +57,13 @@ function App() {
           Tantas cosas por decirte y tan pocas que salen de mi boca. Deberías
           aprender a leer mis ojos cuando te miro.
         </h2>
-        <img src="/src/assets/nav-arrow-down.svg" className="arrowDown" />
+        <FontAwesomeIcon icon={faChevronDown} className="arrowDown" />
         <div className="contenedorFlores">
-          <img src="/src/assets/flowers-yellow.svg" className="flores" />
-          <img src="/src/assets/flowers-yellow.svg" className="flores" />
-          <img src="/src/assets/flowers-yellow.svg" className="flores" />
-          <img src="/src/assets/flowers-yellow.svg" className="flores" />
-          <img src="/src/assets/flowers-yellow.svg" className="flores" />
+          <img src={flores} className="flores" />
+          <img src={flores} className="flores" />
+          <img src={flores} className="flores" />
+          <img src={flores} className="flores" />
+          <img src={flores} className="flores" />
         </div>
       </section>
       <section className="laPregunta">
@@ -69,7 +72,7 @@ function App() {
           Hace mucho queria preguntarte una cosita...
         </h2>
         <img src="https://i.imgur.com/Nt7I7oP.png" className="patrick" />
-        <img src="/src/assets/nav-arrow-down.svg" className="arrowDown" />
+        <FontAwesomeIcon icon={faChevronDown} className="arrowDown" />
       </section>
       <section className="laPregunta">
         <h2 className="poesiaText2 text-center px-3">Querés ser mi novia?</h2>
