@@ -54,13 +54,13 @@ function App() {
           Tantas cosas por decirte y tan pocas que salen de mi boca. Deberías
           aprender a leer mis ojos cuando te miro.
         </h2>
-        <img src="/src/assets/img/nav-arrow-down.svg" className="arrowDown" />
+        <img src="/src/assets/nav-arrow-down.svg" className="arrowDown" />
         <div className="contenedorFlores">
-          <img src="/src/assets/img/flowers-yellow.svg" className="flores" />
-          <img src="/src/assets/img/flowers-yellow.svg" className="flores" />
-          <img src="/src/assets/img/flowers-yellow.svg" className="flores" />
-          <img src="/src/assets/img/flowers-yellow.svg" className="flores" />
-          <img src="/src/assets/img/flowers-yellow.svg" className="flores" />
+          <img src="/src/assets/flowers-yellow.svg" className="flores" />
+          <img src="/src/assets/flowers-yellow.svg" className="flores" />
+          <img src="/src/assets/flowers-yellow.svg" className="flores" />
+          <img src="/src/assets/flowers-yellow.svg" className="flores" />
+          <img src="/src/assets/flowers-yellow.svg" className="flores" />
         </div>
       </section>
       <section className="laPregunta">
@@ -68,8 +68,8 @@ function App() {
         <h2 className="poesiaText2 text-center">
           Hace mucho queria preguntarte una cosita...
         </h2>
-        <img src="src\assets\img\patrick.png" className="patrick" />
-        <img src="/src/assets/img/nav-arrow-down.svg" className="arrowDown" />
+        <img src="src\assets\patrick.png" className="patrick" />
+        <img src="/src/assets/nav-arrow-down.svg" className="arrowDown" />
       </section>
       <section className="laPregunta">
         <h2 className="poesiaText2 text-center px-3">Querés ser mi novia?</h2>
