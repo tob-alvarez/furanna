@@ -1,28 +1,12 @@
-import { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
-
 function Home() {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
-  };
-
   return (
     <>
-    <div className=' d-flex justify-content-center '>
-      <Carousel activeIndex={index} onSelect={handleSelect}>
-        <Carousel.Item>
-          <img src="https://i.imgur.com/KjhUP3e.jpg" className='fotoCarrito'/>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src="https://i.imgur.com/HDiAWuQ.jpg" className='fotoCarrito' />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src="https://i.imgur.com/lg1r0VM.jpg" className='fotoCarrito' />
-        </Carousel.Item>
-      </Carousel>
-    </div>
+      <div className=" d-flex flex-column justify-content-center ">
+        <div className="container">
+          <img src="https://i.imgur.com/KjhUP3e.jpg" className="fotoCarrito" />
+        </div>
+        <h2 className="text-center text-light mt-3">Para mi amor Anna🤍</h2>
+      </div>
     </>
   );
 }

@@ -54,7 +54,7 @@ const PedidoNovia = () => {
 
   return (
     <>
-    <section className="poesia">
+    <section className="poesia container">
         <h2 className="poesiaText px-5">
           Tantas cosas por decirte y tan pocas que salen de mi boca. Deberías
           aprender a leer mis ojos cuando te miro.
@@ -68,7 +68,7 @@ const PedidoNovia = () => {
           <img src={florcitas} className="flores" />
         </div>
       </section>
-      <section className="laPregunta">
+      <section className="contenedorPatrick">
         <h2 className="poesiaText2 text-center">Para dejar de alargarla...</h2>
         <h2 className="poesiaText2 text-center">
           Hace mucho queria preguntarte una cosita...
@@ -91,6 +91,7 @@ const PedidoNovia = () => {
             title="No funciona este botón, que lastima xd"
             className="w-25"
             onClick={() => setModalShowNo(true)}
+            disabled
           >
             No
           </Button>

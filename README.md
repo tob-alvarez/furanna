@@ -1,8 +1,15 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# furAnna
 
-Currently, two official plugins are available:
+Esta pagina fue creada en un principio para pedirle que sea mi novia Anna, ahora voy actualizandola cada tanto agregando fotos nuestras, para dias especiales, frases, etc.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Authors
+
+- [@tob-alvarez](https://www.github.com/tob-alvarez)
+
+
+## Demo
+
+https://furanna.vercel.app/
+
